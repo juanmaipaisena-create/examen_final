@@ -1,0 +1,171 @@
+[gd_scene format=3 uid="uid://dfbbfvc20e4cu"]
+
+[ext_resource type="Texture2D" uid="uid://c3q1cv10j6cux" path="res://assets/player/Captain_Clown_Nose_without_Sword/07-Dead Hit/Dead Hit 01.png" id="1_007i1"]
+[ext_resource type="Texture2D" uid="uid://gmq1b7r1nnp0" path="res://assets/player/Captain_Clown_Nose_without_Sword/04-Fall/Fall 01.png" id="1_fcs02"]
+[ext_resource type="Texture2D" uid="uid://5v0ytl0a0wx" path="res://assets/player/Captain_Clown_Nose_without_Sword/01-Idle/Idle 01.png" id="1_p47bc"]
+[ext_resource type="Texture2D" uid="uid://dl8a0as61qs58" path="res://assets/player/Captain_Clown_Nose_without_Sword/08-Dead Ground/Dead Ground 01.png" id="1_uniwh"]
+[ext_resource type="Texture2D" uid="uid://bgy0xsq146cc3" path="res://assets/player/Captain_Clown_Nose_without_Sword/07-Dead Hit/Dead Hit 02.png" id="2_6cv16"]
+[ext_resource type="Texture2D" uid="uid://gmg2b1nr3dcn" path="res://assets/player/Captain_Clown_Nose_without_Sword/01-Idle/Idle 02.png" id="2_75vfm"]
+[ext_resource type="Texture2D" uid="uid://c4ae26pr3mdf3" path="res://assets/player/Captain_Clown_Nose_without_Sword/08-Dead Ground/Dead Ground 02.png" id="2_iqsei"]
+[ext_resource type="Texture2D" uid="uid://kiw7men6i24n" path="res://assets/player/Captain_Clown_Nose_without_Sword/05-Ground/Ground 01.png" id="2_kvlxm"]
+[ext_resource type="Texture2D" uid="uid://dduno8u602b2l" path="res://assets/player/Captain_Clown_Nose_without_Sword/01-Idle/Idle 03.png" id="3_0owmy"]
+[ext_resource type="Texture2D" uid="uid://cbckq45gmuhcd" path="res://assets/player/Captain_Clown_Nose_without_Sword/07-Dead Hit/Dead Hit 03.png" id="3_j4nxn"]
+[ext_resource type="Texture2D" uid="uid://dca12baxk74p7" path="res://assets/player/Captain_Clown_Nose_without_Sword/08-Dead Ground/Dead Ground 03.png" id="3_tffgl"]
+[ext_resource type="Texture2D" uid="uid://317viokserdj" path="res://assets/player/Captain_Clown_Nose_without_Sword/05-Ground/Ground 02.png" id="3_uf5tr"]
+[ext_resource type="Texture2D" uid="uid://d1cplnifl8c6b" path="res://assets/player/Captain_Clown_Nose_without_Sword/06-Hit/Hit 01.png" id="4_3j4b4"]
+[ext_resource type="Texture2D" uid="uid://ccg1w6oai77rg" path="res://assets/player/Captain_Clown_Nose_without_Sword/07-Dead Hit/Dead Hit 04.png" id="4_28m0y"]
+[ext_resource type="Texture2D" uid="uid://d0tr6ag35htv7" path="res://assets/player/Captain_Clown_Nose_without_Sword/08-Dead Ground/Dead Ground 04.png" id="4_pk8ii"]
+[ext_resource type="Texture2D" uid="uid://7o81rmc2feaf" path="res://assets/player/Captain_Clown_Nose_without_Sword/01-Idle/Idle 04.png" id="4_qek5x"]
+[ext_resource type="Texture2D" uid="uid://byta8t3bed1ko" path="res://assets/player/Captain_Clown_Nose_without_Sword/01-Idle/Idle 05.png" id="5_5gtgg"]
+[ext_resource type="Texture2D" uid="uid://brwptv1unf82m" path="res://assets/player/Captain_Clown_Nose_without_Sword/06-Hit/Hit 02.png" id="5_yj68g"]
+[ext_resource type="Texture2D" uid="uid://rjp213vc7u0s" path="res://assets/player/Captain_Clown_Nose_without_Sword/06-Hit/Hit 03.png" id="6_ioxgp"]
+[ext_resource type="Texture2D" uid="uid://72i3aypki26l" path="res://assets/player/Captain_Clown_Nose_without_Sword/02-Run/Run 01.png" id="6_je7p5"]
+[ext_resource type="Texture2D" uid="uid://e4frlnlcjc4v" path="res://assets/player/Captain_Clown_Nose_without_Sword/03-Jump/Jump 01.png" id="6_ugbui"]
+[ext_resource type="Texture2D" uid="uid://cpa7is1ft5dge" path="res://assets/player/Captain_Clown_Nose_without_Sword/06-Hit/Hit 04.png" id="7_cnsyf"]
+[ext_resource type="Texture2D" uid="uid://8q3i3fjck6x2" path="res://assets/player/Captain_Clown_Nose_without_Sword/03-Jump/Jump 02.png" id="7_fcs02"]
+[ext_resource type="Texture2D" uid="uid://bq371bds0011y" path="res://assets/player/Captain_Clown_Nose_without_Sword/02-Run/Run 02.png" id="7_fm80t"]
+[ext_resource type="Texture2D" uid="uid://dp2brh4d7cnls" path="res://assets/player/Captain_Clown_Nose_without_Sword/02-Run/Run 03.png" id="8_gx1jg"]
+[ext_resource type="Texture2D" uid="uid://dihahm81k2fft" path="res://assets/player/Captain_Clown_Nose_without_Sword/03-Jump/Jump 03.png" id="8_myrg7"]
+[ext_resource type="Texture2D" uid="uid://k2kc4apqyn6d" path="res://assets/player/Captain_Clown_Nose_without_Sword/02-Run/Run 04.png" id="9_ugbui"]
+[ext_resource type="Texture2D" uid="uid://c7wxr7yc1675q" path="res://assets/player/Captain_Clown_Nose_without_Sword/02-Run/Run 05.png" id="10_fcs02"]
+[ext_resource type="Texture2D" uid="uid://pm46ba05o53n" path="res://assets/player/Captain_Clown_Nose_without_Sword/02-Run/Run 06.png" id="11_myrg7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h17s1"]
+atlas = ExtResource("1_p47bc")
+region = Rect2(0, 0, 64, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x7p2l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_uniwh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_iqsei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tffgl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pk8ii")
+}],
+"loop": false,
+"name": &"Dead_Ground",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_007i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_6cv16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_j4nxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_28m0y")
+}],
+"loop": false,
+"name": &"Dead_Hit",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_fcs02")
+}],
+"loop": false,
+"name": &"Fall",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_kvlxm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_uf5tr")
+}],
+"loop": false,
+"name": &"Ground",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_3j4b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yj68g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ioxgp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_cnsyf")
+}],
+"loop": false,
+"name": &"Hit",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h17s1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_75vfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0owmy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qek5x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_5gtgg")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_ugbui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fcs02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_myrg7")
+}],
+"loop": false,
+"name": &"Jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_je7p5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fm80t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_gx1jg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ugbui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_fcs02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_myrg7")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=878979668]
+
+[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=184823460]
+sprite_frames = SubResource("SpriteFrames_x7p2l")
+animation = &"Dead_Hit"
