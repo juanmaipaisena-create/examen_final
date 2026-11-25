@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://c3q1cv10j6cux" path="res://assets/player/Captain_Clown_Nose_without_Sword/07-Dead Hit/Dead Hit 01.png" id="1_007i1"]
 [ext_resource type="Texture2D" uid="uid://gmq1b7r1nnp0" path="res://assets/player/Captain_Clown_Nose_without_Sword/04-Fall/Fall 01.png" id="1_fcs02"]
+[ext_resource type="Script" uid="uid://6u3jqxjp287h" path="res://scripts/player/player.gd" id="1_iqsei"]
 [ext_resource type="Texture2D" uid="uid://5v0ytl0a0wx" path="res://assets/player/Captain_Clown_Nose_without_Sword/01-Idle/Idle 01.png" id="1_p47bc"]
 [ext_resource type="Texture2D" uid="uid://dl8a0as61qs58" path="res://assets/player/Captain_Clown_Nose_without_Sword/08-Dead Ground/Dead Ground 01.png" id="1_uniwh"]
 [ext_resource type="Texture2D" uid="uid://bgy0xsq146cc3" path="res://assets/player/Captain_Clown_Nose_without_Sword/07-Dead Hit/Dead Hit 02.png" id="2_6cv16"]
@@ -164,8 +165,17 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uniwh"]
+size = Vector2(20, 24)
+
 [node name="Player" type="CharacterBody2D" unique_id=878979668]
+script = ExtResource("1_iqsei")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=184823460]
 sprite_frames = SubResource("SpriteFrames_x7p2l")
-animation = &"Dead_Hit"
+animation = &"Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=322284289]
+shape = SubResource("RectangleShape2D_uniwh")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1085113458]

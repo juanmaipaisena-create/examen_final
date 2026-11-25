@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="examen_final_juan"
+run/main_scene="uid://cpska7bpjonm6"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cpska7bpjonm6"]
+
+[ext_resource type="PackedScene" uid="uid://dhmqqedkuyh8r" path="res://scenes/level/Ground.tscn" id="1_557l3"]
+[ext_resource type="PackedScene" uid="uid://dfbbfvc20e4cu" path="res://scenes/player/player.tscn" id="2_wmqow"]
+
+[node name="MainGame" type="Node2D" unique_id=926111705]
+
+[node name="Ground" parent="." unique_id=287682658 instance=ExtResource("1_557l3")]
+position = Vector2(256, 250)
+
+[node name="Player" parent="." unique_id=878979668 instance=ExtResource("2_wmqow")]
+position = Vector2(256, 250)
+
+[editable path="Ground"]
+[editable path="Player"]
