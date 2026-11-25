@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dhmqqedkuyh8r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kwolf"]
+size = Vector2(600, 32)
+
+[node name="Ground" type="StaticBody2D" unique_id=287682658]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1299307249]
+position = Vector2(-2, 0)
+shape = SubResource("RectangleShape2D_kwolf")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=741807969]
+offset_left = -300.0
+offset_top = -16.0
+offset_right = 300.0
+offset_bottom = 16.0
+color = Color(0.19170198, 0.13344276, 0.009924874, 1)
