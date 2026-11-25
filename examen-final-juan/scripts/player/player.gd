@@ -36,10 +36,10 @@ func update_animation() -> void:
 	#si no esta en el suelo
 	if not is_on_floor():
 		if velocity.y < 0:
-			sprite.play("jump")
+			sprite.play("Jump")
 		else:
-			sprite.play("fall")
+			sprite.play("Fall")
 	elif abs(velocity.x) > 0:
-		sprite.play("run")
+		sprite.play("Run")
 	else:
-		sprite.play("idle")
+		sprite.play("Idle")
